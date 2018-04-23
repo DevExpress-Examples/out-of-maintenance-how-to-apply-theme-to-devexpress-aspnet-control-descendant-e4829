@@ -1,0 +1,21 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxdv" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxmvc" Namespace="DevExpress.Web.Mvc" Assembly="DevExpress.Web.Mvc.v16.1, Version=16.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dxmvc:MVCxDataView runat="server" CssFilePath="{0}/styles.css" CssPostfix="iOS" PagerPanelSpacing="1" ItemSpacing="1"
+    SpriteCssFilePath="{0}/sprite.css" PagerAlign="Justify">
+    <PagerSettings ShowNumericButtons="true" CurrentPageNumberFormat="{0}">
+        <FirstPageButton Visible="false" />
+        <LastPageButton Visible="false" />
+        <AllButton Visible="false" />
+        <Summary Visible="false" Position="Inside" />
+        <PageSizeItemSettings>
+            <DropDownImage>
+                <SpriteProperties PressedCssClass="dxWeb_pPopOutPressed_iOS" />
+            </DropDownImage>
+        </PageSizeItemSettings>
+    </PagerSettings>
+    <LoadingPanelImage Url="Web/Loading.gif" />
+	<LoadingPanelStyle ImageSpacing="5" />
+</dxmvc:MVCxDataView>
+
