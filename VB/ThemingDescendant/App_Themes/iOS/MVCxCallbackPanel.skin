@@ -1,0 +1,10 @@
+<%@ Register assembly="DevExpress.Data.v15.2, Version=15.2.0.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" Namespace="DevExpress.Data" TagPrefix="dx" %>
+<%@ Register assembly="DevExpress.Web.v15.2, Version=15.2.0.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" namespace="DevExpress.Web" tagprefix="dx" %>
+
+<%@ Register TagPrefix="dxmvc" Namespace="DevExpress.Web.Mvc" Assembly="DevExpress.Web.Mvc.v15.2, Version=15.2.0.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" %>
+
+<dxmvc:MVCxCallbackPanel runat="server" CssFilePath="{0}/styles.css" CssPostfix="iOS">
+    <LoadingPanelImage Url="Web/Loading.gif" />
+	<LoadingPanelStyle ImageSpacing="5" />
+</dxmvc:MVCxCallbackPanel>
+
