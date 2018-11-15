@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [CustomLayout.cs](./CS/ThemingDescendant/App_Code/CustomLayout.cs) (VB: [CustomLayoutDesigner.vb](./VB/ThemingDescendant/App_Code/CustomLayoutDesigner.vb))
+* [CustomLayoutDesigner.cs](./CS/ThemingDescendant/App_Code/CustomLayoutDesigner.cs) (VB: [CustomLayoutDesigner.vb](./VB/ThemingDescendant/App_Code/CustomLayoutDesigner.vb))
+* [Default.aspx](./CS/ThemingDescendant/Default.aspx) (VB: [Default.aspx.vb](./VB/ThemingDescendant/Default.aspx.vb))
+* [Default.aspx.cs](./CS/ThemingDescendant/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/ThemingDescendant/Default.aspx.vb))
+<!-- default file list end -->
 # How to apply theme to DevExpress ASP.NET Control Descendant
 
 
